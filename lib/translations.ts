@@ -1,0 +1,291 @@
+export const translations = {
+  en: {
+    nav: {
+      home: "Home",
+      portfolio: "Portfolio",
+      projects: "Projects",
+      contact: "Contact",
+      about: "About",
+    },
+    home: {
+      greeting: "Hi, I'm Aymane Elbouanani",
+      ceo: "Co-CEO of",
+      headline: "I turn logic into pixels",
+      description:
+        "I am a Designer and Coder specializing in creating web apps with clean user interface and optimized user experience.",
+      aboutBtn: "About Me",
+      githubBtn: "GitHub",
+      scrollDown: "Scroll to explore",
+    },
+    skills: {
+      title: "Skills & Expertise",
+      subtitle: "Technologies I work with",
+      categories: {
+        frontend: "Frontend",
+        backend: "Backend",
+        design: "Design",
+        tools: "Tools",
+      },
+    },
+    experience: {
+      title: "Experience",
+      subtitle: "My professional journey",
+      timeline: [
+        {
+          year: "2024 - Present",
+          role: "Co-CEO",
+          company: "MegaVolt",
+          description: "Leading product development and design strategy for innovative tech solutions.",
+        },
+        {
+          year: "2023 - 2024",
+          role: "Freelance Designer & Developer",
+          company: "Independent",
+          description: "Created custom web applications and designs for various clients worldwide.",
+        },
+        {
+          year: "2022 - 2023",
+          role: "UI/UX Designer",
+          company: "Creative Studio",
+          description: "Designed user interfaces and improved user experiences for digital products.",
+        },
+      ],
+    },
+    portfolio: {
+      title: "My Work",
+      description: "Showcasing my best projects and designs",
+      viewProject: "View Project",
+      viewCode: "View Code",
+      categories: {
+        all: "All",
+        web: "Web Apps",
+        design: "Design",
+        mobile: "Mobile",
+      },
+    },
+    projects: {
+      title: "Projects",
+      description: "Explore my latest projects and experiments",
+      viewLive: "View Live",
+      viewCode: "Source Code",
+      featured: "Featured",
+      items: [
+        {
+          title: "MegaVolt Launcher",
+          description: "A modern game launcher with sleek UI and performance optimization features.",
+          tags: ["Next.js", "TypeScript", "Tailwind"],
+          link: "https://launcher-megavolt.vercel.app",
+          github: "",
+        },
+        {
+          title: "Portfolio Website",
+          description: "Personal portfolio showcasing my work and skills with smooth animations.",
+          tags: ["React", "Framer Motion", "CSS"],
+          link: "#",
+          github: "https://github.com/eyemanee",
+        },
+        {
+          title: "E-Commerce Dashboard",
+          description: "Admin dashboard for managing products, orders and analytics.",
+          tags: ["Next.js", "Prisma", "PostgreSQL"],
+          link: "#",
+          github: "",
+        },
+        {
+          title: "Weather App",
+          description: "Beautiful weather application with real-time data and forecasts.",
+          tags: ["React", "API", "Geolocation"],
+          link: "#",
+          github: "",
+        },
+      ],
+    },
+    contact: {
+      title: "Get in Touch",
+      description: "Let's collaborate and create something amazing together",
+      form: {
+        name: "Your Name",
+        email: "Your Email",
+        message: "Your Message",
+        send: "Send Message",
+        sending: "Sending...",
+        success: "Message sent successfully!",
+        error: "Something went wrong. Please try again.",
+      },
+      info: {
+        title: "Contact Info",
+        emailLabel: "Email",
+        socialLabel: "Social",
+      },
+    },
+    about: {
+      title: "About Me",
+      subtitle: "Designer & Coder",
+      description: "Designer and Coder passionate about creating beautiful digital experiences",
+      bio: [
+        "I'm Aymane Elbouanani, a passionate designer and developer. I specialize in creating beautiful, functional web applications that deliver exceptional user experiences.",
+        "As Co-CEO of MegaVolt, I lead product development and design strategy, combining my technical skills with creative vision to build innovative solutions.",
+        "When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, or experimenting with new technologies.",
+      ],
+      stats: [
+        { number: "3+", label: "Years Experience" },
+        { number: "50+", label: "Projects Completed" },
+        { number: "30+", label: "Happy Clients" },
+        { number: "10+", label: "Technologies" },
+      ],
+    },
+    footer: {
+      rights: "All rights reserved.",
+      madeWith: "Made with",
+      by: "by Aymane Elbouanani",
+    },
+  },
+  fr: {
+    nav: {
+      home: "Accueil",
+      portfolio: "Portfolio",
+      projects: "Projets",
+      contact: "Contact",
+      about: "À Propos",
+    },
+    home: {
+      greeting: "Bonjour, je suis Aymane Elbouanani",
+      ceo: "Co-CEO de",
+      headline: "Je transforme la logique en pixels",
+      description:
+        "Je suis Designer et Codeur spécialisé dans la création d'applications web avec une interface utilisateur épurée et une expérience utilisateur optimisée.",
+      aboutBtn: "À Propos",
+      githubBtn: "GitHub",
+      scrollDown: "Défiler pour explorer",
+    },
+    skills: {
+      title: "Compétences & Expertise",
+      subtitle: "Technologies avec lesquelles je travaille",
+      categories: {
+        frontend: "Frontend",
+        backend: "Backend",
+        design: "Design",
+        tools: "Outils",
+      },
+    },
+    experience: {
+      title: "Expérience",
+      subtitle: "Mon parcours professionnel",
+      timeline: [
+        {
+          year: "2024 - Présent",
+          role: "Co-CEO",
+          company: "MegaVolt",
+          description: "Direction du développement produit et de la stratégie design pour des solutions tech innovantes.",
+        },
+        {
+          year: "2023 - 2024",
+          role: "Designer & Développeur Freelance",
+          company: "Indépendant",
+          description: "Création d'applications web personnalisées et designs pour divers clients dans le monde.",
+        },
+        {
+          year: "2022 - 2023",
+          role: "Designer UI/UX",
+          company: "Studio Créatif",
+          description: "Conception d'interfaces utilisateur et amélioration de l'expérience utilisateur pour des produits numériques.",
+        },
+      ],
+    },
+    portfolio: {
+      title: "Mon Travail",
+      description: "Présentant mes meilleurs projets et designs",
+      viewProject: "Voir le Projet",
+      viewCode: "Voir le Code",
+      categories: {
+        all: "Tous",
+        web: "Apps Web",
+        design: "Design",
+        mobile: "Mobile",
+      },
+    },
+    projects: {
+      title: "Projets",
+      description: "Explorez mes derniers projets et expérimentations",
+      viewLive: "Voir en Direct",
+      viewCode: "Code Source",
+      featured: "En Vedette",
+      items: [
+        {
+          title: "MegaVolt Launcher",
+          description: "Un lanceur de jeux moderne avec une UI élégante et des fonctionnalités d'optimisation.",
+          tags: ["Next.js", "TypeScript", "Tailwind"],
+          link: "https://launcher-megavolt.vercel.app",
+          github: "",
+        },
+        {
+          title: "Site Portfolio",
+          description: "Portfolio personnel présentant mon travail et mes compétences avec des animations fluides.",
+          tags: ["React", "Framer Motion", "CSS"],
+          link: "#",
+          github: "https://github.com/eyemanee",
+        },
+        {
+          title: "Dashboard E-Commerce",
+          description: "Tableau de bord admin pour gérer les produits, commandes et analytics.",
+          tags: ["Next.js", "Prisma", "PostgreSQL"],
+          link: "#",
+          github: "",
+        },
+        {
+          title: "App Météo",
+          description: "Application météo élégante avec données en temps réel et prévisions.",
+          tags: ["React", "API", "Géolocalisation"],
+          link: "#",
+          github: "",
+        },
+      ],
+    },
+    contact: {
+      title: "Contactez-moi",
+      description: "Collaborons et créons quelque chose d'incroyable ensemble",
+      form: {
+        name: "Votre Nom",
+        email: "Votre Email",
+        message: "Votre Message",
+        send: "Envoyer le Message",
+        sending: "Envoi...",
+        success: "Message envoyé avec succès!",
+        error: "Une erreur s'est produite. Veuillez réessayer.",
+      },
+      info: {
+        title: "Infos de Contact",
+        emailLabel: "Email",
+        socialLabel: "Réseaux",
+      },
+    },
+    about: {
+      title: "À Propos",
+      subtitle: "Designer & Codeur",
+      description: "Designer et Codeur passionné par la création d'expériences numériques magnifiques",
+      bio: [
+        "Je suis Aymane Elbouanani, un designer et développeur passionné. Je me spécialise dans la création d'applications web belles et fonctionnelles qui offrent des expériences utilisateur exceptionnelles.",
+        "En tant que Co-CEO de MegaVolt, je dirige le développement produit et la stratégie design, combinant mes compétences techniques avec une vision créative pour construire des solutions innovantes.",
+        "Quand je ne code pas, vous pouvez me trouver en train d'explorer les nouvelles tendances design, de contribuer à des projets open-source, ou d'expérimenter avec de nouvelles technologies.",
+      ],
+      stats: [
+        { number: "3+", label: "Années d'Expérience" },
+        { number: "50+", label: "Projets Réalisés" },
+        { number: "30+", label: "Clients Satisfaits" },
+        { number: "10+", label: "Technologies" },
+      ],
+    },
+    footer: {
+      rights: "Tous droits réservés.",
+      madeWith: "Fait avec",
+      by: "par Aymane Elbouanani",
+    },
+  },
+}
+
+export const skills = {
+  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  backend: ["Node.js", "Python", "PostgreSQL", "Prisma", "REST APIs"],
+  design: ["Figma", "Adobe XD", "Photoshop", "Illustrator", "UI/UX"],
+  tools: ["Git", "VS Code", "Vercel", "Docker", "Linux"],
+}
