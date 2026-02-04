@@ -18,8 +18,9 @@ export function Navbar({ lang, currentPage }: NavbarProps) {
   const navLinks = [
     { href: `/${lang}`, label: t.nav.home, key: "home" },
     { href: `/${lang}/about`, label: t.nav.about, key: "about" },
+    { href: `/${lang}/services`, label: lang === "en" ? "Services" : "Services", key: "services" },
     { href: `/${lang}/projects`, label: t.nav.projects, key: "projects" },
-    { href: `/${lang}/portfolio`, label: t.nav.portfolio, key: "portfolio" },
+    { href: `/${lang}/blog`, label: "Blog", key: "blog" },
     { href: `/${lang}/contact`, label: t.nav.contact, key: "contact" },
   ]
 
@@ -33,7 +34,7 @@ export function Navbar({ lang, currentPage }: NavbarProps) {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
               key={link.key}
@@ -51,7 +52,7 @@ export function Navbar({ lang, currentPage }: NavbarProps) {
           <LanguageSwitcher currentLang={lang} />
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 hover:bg-black/5 rounded-lg transition-colors"
+            className="lg:hidden p-2 hover:bg-black/5 rounded-lg transition-colors"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
@@ -65,7 +66,7 @@ export function Navbar({ lang, currentPage }: NavbarProps) {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 z-40 bg-[#faf5f0] transition-transform duration-500 md:hidden ${
+        className={`fixed inset-0 z-40 bg-[#faf5f0] transition-transform duration-500 lg:hidden ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
