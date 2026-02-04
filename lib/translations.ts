@@ -139,6 +139,130 @@ export const translations = {
       madeWith: "Made with",
       by: "by Aymane Elbouanani",
     },
+    services: {
+      title: "Services",
+      subtitle: "What I can do for you",
+      items: [
+        {
+          title: "Web Development",
+          description: "Building modern, responsive websites and web applications using the latest technologies.",
+          icon: "code",
+        },
+        {
+          title: "UI/UX Design",
+          description: "Creating intuitive and beautiful user interfaces that provide exceptional experiences.",
+          icon: "palette",
+        },
+        {
+          title: "Mobile Apps",
+          description: "Developing cross-platform mobile applications with React Native and modern frameworks.",
+          icon: "smartphone",
+        },
+        {
+          title: "Branding",
+          description: "Crafting unique brand identities including logos, color schemes, and visual guidelines.",
+          icon: "star",
+        },
+        {
+          title: "Consulting",
+          description: "Providing expert advice on technology choices, architecture, and best practices.",
+          icon: "lightbulb",
+        },
+        {
+          title: "Maintenance",
+          description: "Ongoing support, updates, and improvements for your existing digital products.",
+          icon: "settings",
+        },
+      ],
+      cta: "Let's discuss your project",
+    },
+    blog: {
+      title: "Blog",
+      subtitle: "Thoughts, tutorials, and insights",
+      readMore: "Read More",
+      minRead: "min read",
+      posts: [
+        {
+          title: "Building Modern UIs with React",
+          excerpt: "Learn how to create stunning user interfaces using React and modern CSS techniques.",
+          date: "Jan 15, 2024",
+          readTime: 5,
+          category: "Development",
+        },
+        {
+          title: "The Art of Minimalist Design",
+          excerpt: "Exploring the principles of minimalism and how to apply them in your designs.",
+          date: "Jan 10, 2024",
+          readTime: 4,
+          category: "Design",
+        },
+        {
+          title: "Optimizing Web Performance",
+          excerpt: "Tips and tricks to make your websites load faster and perform better.",
+          date: "Jan 5, 2024",
+          readTime: 6,
+          category: "Development",
+        },
+        {
+          title: "My Journey as a Developer",
+          excerpt: "Sharing my experience and lessons learned on my path to becoming a developer.",
+          date: "Dec 28, 2023",
+          readTime: 8,
+          category: "Personal",
+        },
+      ],
+    },
+    testimonials: {
+      title: "Testimonials",
+      subtitle: "What clients say about me",
+      items: [
+        {
+          name: "Sophie Martin",
+          role: "CEO, TechStart",
+          content: "Aymane delivered exceptional work. His attention to detail and creative solutions exceeded our expectations.",
+          avatar: "S",
+        },
+        {
+          name: "Lucas Bernard",
+          role: "Product Manager, InnovateCo",
+          content: "Working with Aymane was a pleasure. He understood our vision perfectly and brought it to life.",
+          avatar: "L",
+        },
+        {
+          name: "Emma Dubois",
+          role: "Founder, DesignHub",
+          content: "Incredible talent! Aymane's designs are both beautiful and highly functional. Highly recommended.",
+          avatar: "E",
+        },
+      ],
+    },
+    resume: {
+      title: "Resume",
+      subtitle: "My professional background",
+      download: "Download CV",
+      education: {
+        title: "Education",
+        items: [
+          {
+            degree: "Computer Science",
+            school: "University",
+            year: "2020 - 2024",
+            description: "Focused on software engineering and web technologies.",
+          },
+        ],
+      },
+      skills: {
+        title: "Technical Skills",
+      },
+      languages: {
+        title: "Languages",
+        items: [
+          { name: "French", level: "Native" },
+          { name: "English", level: "Fluent" },
+          { name: "Arabic", level: "Native" },
+        ],
+      },
+    },
   },
   fr: {
     nav: {
@@ -279,6 +403,130 @@ export const translations = {
       rights: "Tous droits réservés.",
       madeWith: "Fait avec",
       by: "par Aymane Elbouanani",
+    },
+    services: {
+      title: "Services",
+      subtitle: "Ce que je peux faire pour vous",
+      items: [
+        {
+          title: "Développement Web",
+          description: "Création de sites web et applications modernes et responsives avec les dernières technologies.",
+          icon: "code",
+        },
+        {
+          title: "Design UI/UX",
+          description: "Création d'interfaces utilisateur intuitives et belles offrant des expériences exceptionnelles.",
+          icon: "palette",
+        },
+        {
+          title: "Apps Mobiles",
+          description: "Développement d'applications mobiles multiplateformes avec React Native.",
+          icon: "smartphone",
+        },
+        {
+          title: "Branding",
+          description: "Création d'identités de marque uniques incluant logos et guides visuels.",
+          icon: "star",
+        },
+        {
+          title: "Consulting",
+          description: "Conseils d'expert sur les choix technologiques et les meilleures pratiques.",
+          icon: "lightbulb",
+        },
+        {
+          title: "Maintenance",
+          description: "Support continu, mises à jour et améliorations pour vos produits numériques.",
+          icon: "settings",
+        },
+      ],
+      cta: "Discutons de votre projet",
+    },
+    blog: {
+      title: "Blog",
+      subtitle: "Pensées, tutoriels et insights",
+      readMore: "Lire la Suite",
+      minRead: "min de lecture",
+      posts: [
+        {
+          title: "Construire des UIs Modernes avec React",
+          excerpt: "Apprenez à créer des interfaces utilisateur avec React et les techniques CSS modernes.",
+          date: "15 Jan 2024",
+          readTime: 5,
+          category: "Développement",
+        },
+        {
+          title: "L'Art du Design Minimaliste",
+          excerpt: "Explorer les principes du minimalisme et comment les appliquer dans vos designs.",
+          date: "10 Jan 2024",
+          readTime: 4,
+          category: "Design",
+        },
+        {
+          title: "Optimiser les Performances Web",
+          excerpt: "Astuces pour rendre vos sites plus rapides et performants.",
+          date: "5 Jan 2024",
+          readTime: 6,
+          category: "Développement",
+        },
+        {
+          title: "Mon Parcours de Développeur",
+          excerpt: "Partage de mon expérience et des leçons apprises sur mon chemin.",
+          date: "28 Déc 2023",
+          readTime: 8,
+          category: "Personnel",
+        },
+      ],
+    },
+    testimonials: {
+      title: "Témoignages",
+      subtitle: "Ce que disent mes clients",
+      items: [
+        {
+          name: "Sophie Martin",
+          role: "CEO, TechStart",
+          content: "Aymane a livré un travail exceptionnel. Son attention aux détails a dépassé nos attentes.",
+          avatar: "S",
+        },
+        {
+          name: "Lucas Bernard",
+          role: "Chef de Produit, InnovateCo",
+          content: "Travailler avec Aymane était un plaisir. Il a parfaitement compris notre vision.",
+          avatar: "L",
+        },
+        {
+          name: "Emma Dubois",
+          role: "Fondatrice, DesignHub",
+          content: "Talent incroyable! Les designs d'Aymane sont à la fois beaux et fonctionnels.",
+          avatar: "E",
+        },
+      ],
+    },
+    resume: {
+      title: "CV",
+      subtitle: "Mon parcours professionnel",
+      download: "Télécharger CV",
+      education: {
+        title: "Formation",
+        items: [
+          {
+            degree: "Informatique",
+            school: "Université",
+            year: "2020 - 2024",
+            description: "Spécialisé en ingénierie logicielle et technologies web.",
+          },
+        ],
+      },
+      skills: {
+        title: "Compétences Techniques",
+      },
+      languages: {
+        title: "Langues",
+        items: [
+          { name: "Français", level: "Natif" },
+          { name: "Anglais", level: "Courant" },
+          { name: "Arabe", level: "Natif" },
+        ],
+      },
     },
   },
 }
